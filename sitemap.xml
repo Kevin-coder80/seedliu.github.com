@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2014/12/03/Safari%20Web%20Content%20Guide/</loc>
+    <lastmod>2014-12-03T14:57:00.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2014/12/03/hexoPost-md/</loc>
     <lastmod>2014-12-03T01:56:39.000Z</lastmod>
   </url>
@@ -14,11 +19,6 @@
   <url>
     <loc>http://yoursite.com/2014/12/03/hello-world/</loc>
     <lastmod>2014-12-03T01:53:37.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2014/12/03/Safari%20Web%20Content%20Guide/</loc>
-    <lastmod>2014-11-07T05:47:20.000Z</lastmod>
   </url>
   
 </urlset>

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[A Front-end Development]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2014-12-03T14:46:37.923Z</updated>
+  <updated>2014-12-03T14:58:37.807Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[]]></title>
+    <title><![CDATA[Safari Web Content Guide]]></title>
     <link href="http://yoursite.com/2014/12/03/Safari%20Web%20Content%20Guide/"/>
     <id>http://yoursite.com/2014/12/03/Safari Web Content Guide/</id>
-    <published>2014-12-03T14:46:31.000Z</published>
-    <updated>2014-11-07T05:47:20.000Z</updated>
+    <published>2014-12-03T14:57:00.000Z</published>
+    <updated>2014-12-03T14:57:00.000Z</updated>
     <content type="html"><![CDATA[<h1 id="Safari_Web_Content_Guide">Safari Web Content Guide</h1>
 <h3 id="一、建立完善的页面内容">一、建立完善的页面内容</h3>
 <ol>
@@ -97,6 +97,12 @@
 <ol>
 <li><p><strong>使用标准的页面协议</strong>]]>
     </summary>
+    
+      <category term="mobile" scheme="http://yoursite.com/tags/mobile/"/>
+    
+      <category term="safari" scheme="http://yoursite.com/tags/safari/"/>
+    
+      <category term="blog" scheme="http://yoursite.com/categories/blog/"/>
     
   </entry>
   

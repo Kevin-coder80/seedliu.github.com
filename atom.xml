@@ -4,7 +4,7 @@
   <subtitle><![CDATA[A Front-end Development]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2014-12-03T15:01:43.361Z</updated>
+  <updated>2014-12-03T15:10:35.057Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,16 +18,15 @@
     <title><![CDATA[Safari Web Content Guide]]></title>
     <link href="http://yoursite.com/2014/12/03/Safari%20Web%20Content%20Guide/"/>
     <id>http://yoursite.com/2014/12/03/Safari Web Content Guide/</id>
-    <published>2014-12-03T14:59:31.000Z</published>
-    <updated>2014-12-03T14:59:31.000Z</updated>
+    <published>2014-12-03T15:10:29.000Z</published>
+    <updated>2014-12-03T15:10:29.000Z</updated>
     <content type="html"><![CDATA[<h3 id="一、建立完善的页面内容">一、建立完善的页面内容</h3>
 <ol>
-<li><p><strong>使用标准的页面协议</strong></p>
-<ul>
+<li><strong>使用标准的页面协议</strong><ul>
 <li>在页面中加入标准的”DOCTYPE”协议，如：HTML5的DOCTYPE</li>
 <li>将HTML，CSS和JS文件分别存放到不同的文件中</li>
 <li>要使用良好的HTML结构</li>
-<li>使用浏览器所支持的页面特性以及功能</li>
+<li>使用浏览器所支持的页面特性以及功能<a id="more"></a></li>
 </ul>
 </li>
 <li><p><strong>Safari中能否使用Framesets框架</strong></p>
@@ -93,10 +92,12 @@
     <summary type="html">
     <![CDATA[<h3 id="一、建立完善的页面内容">一、建立完善的页面内容</h3>
 <ol>
-<li><p><strong>使用标准的页面协议</strong></p>
-<ul>
+<li><strong>使用标准的页面协议</strong><ul>
 <li>在页面中加入标准的”DOCTYPE”协议，如：HTML5的DOCTYPE</li>
-<li>将HTM]]>
+<li>将HTML，CSS和JS文件分别存放到不同的文件中</li>
+<li>要使用良好的HTML结构</li>
+<li>使用浏览器所支持的页面特性以及功能]]>
+    
     </summary>
     
       <category term="mobile" scheme="http://yoursite.com/tags/mobile/"/>

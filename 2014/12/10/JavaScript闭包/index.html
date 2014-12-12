@@ -4,59 +4,59 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   
-  <title>瓜籽吐嘈</title>
+  <title>JavaScript闭包.md | 瓜籽吐嘈</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   
     <meta name="author" content="Seed liu">
   
   
-    <meta name="description" content="title: JavaScript闭包.mddate: 2014-12-10 22:08:44
-tags: [‘js闭包’, ‘js作用域’. ‘js作用域链’]
-以下内容为自己记录使用，可能不算全面，请谅解！
+    <meta name="description" content="以下内容为自己记录使用，可能不算全面，请谅解！
 闭包，这个词在JS中也算是个神密人物。人们对他总是模模糊糊，像雾像雨又像风就是捉摸不定……
 一、首先了解闭包是个什么玩意儿？都有哪些东西？
 
 一个主函数体
 n个子函数体
 返回信息
-没有了">
+没有了
+
+123456789function f1(){  var n=999;　function f2(){　  var k = 8888;　　alert(n);">
   
-  <meta name="description" content="title: JavaScript闭包.mddate: 2014-12-10 22:08:44
-tags: [‘js闭包’, ‘js作用域’. ‘js作用域链’]
-以下内容为自己记录使用，可能不算全面，请谅解！
+  <meta name="description" content="以下内容为自己记录使用，可能不算全面，请谅解！
 闭包，这个词在JS中也算是个神密人物。人们对他总是模模糊糊，像雾像雨又像风就是捉摸不定……
 一、首先了解闭包是个什么玩意儿？都有哪些东西？
 
 一个主函数体
 n个子函数体
 返回信息
-没有了">
+没有了
+
+123456789function f1(){  var n=999;　function f2(){　  var k = 8888;　　alert(n);">
 <meta property="og:type" content="article">
-<meta property="og:title" content="瓜籽吐嘈">
-<meta property="og:url" content="http://yoursite.com/2014/12/12/JavaScript闭包/">
+<meta property="og:title" content="JavaScript闭包.md">
+<meta property="og:url" content="http://yoursite.com/2014/12/10/JavaScript闭包/">
 <meta property="og:site_name" content="瓜籽吐嘈">
-<meta property="og:description" content="title: JavaScript闭包.mddate: 2014-12-10 22:08:44
-tags: [‘js闭包’, ‘js作用域’. ‘js作用域链’]
-以下内容为自己记录使用，可能不算全面，请谅解！
+<meta property="og:description" content="以下内容为自己记录使用，可能不算全面，请谅解！
 闭包，这个词在JS中也算是个神密人物。人们对他总是模模糊糊，像雾像雨又像风就是捉摸不定……
 一、首先了解闭包是个什么玩意儿？都有哪些东西？
 
 一个主函数体
 n个子函数体
 返回信息
-没有了">
+没有了
+
+123456789function f1(){  var n=999;　function f2(){　  var k = 8888;　　alert(n);">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="瓜籽吐嘈">
-<meta name="twitter:description" content="title: JavaScript闭包.mddate: 2014-12-10 22:08:44
-tags: [‘js闭包’, ‘js作用域’. ‘js作用域链’]
-以下内容为自己记录使用，可能不算全面，请谅解！
+<meta name="twitter:title" content="JavaScript闭包.md">
+<meta name="twitter:description" content="以下内容为自己记录使用，可能不算全面，请谅解！
 闭包，这个词在JS中也算是个神密人物。人们对他总是模模糊糊，像雾像雨又像风就是捉摸不定……
 一、首先了解闭包是个什么玩意儿？都有哪些东西？
 
 一个主函数体
 n个子函数体
 返回信息
-没有了">
+没有了
+
+123456789function f1(){  var n=999;　function f2(){　  var k = 8888;　　alert(n);">
 
   
     <link rel="alternate" href="/atom.xml" title="瓜籽吐嘈" type="application/atom+xml">
@@ -96,24 +96,22 @@ n个子函数体
   <header>
     
       <div class="icon"></div>
-      <a href="/2014/12/12/JavaScript闭包/">
-  <time datetime="2014-12-12T07:14:03.000Z">
-    2014-12-12
+      <a href="/2014/12/10/JavaScript闭包/">
+  <time datetime="2014-12-10T14:08:44.000Z">
+    2014-12-10
   </time>
 </a>
     
     
   
-    <h1 class="title"></h1>
+    <h1 class="title">JavaScript闭包.md</h1>
   
 
   </header>
   
   <div class="entry">
     
-      <p>title: JavaScript闭包.md<br>date: 2014-12-10 22:08:44</p>
-<h2 id="tags:_[‘js闭包’,_‘js作用域’-_‘js作用域链’]">tags: [‘js闭包’, ‘js作用域’. ‘js作用域链’]</h2>
-<p>以下内容为自己记录使用，可能不算全面，请谅解！</p>
+      <p>以下内容为自己记录使用，可能不算全面，请谅解！</p>
 <p><strong><em>闭包</em></strong>，这个词在JS中也算是个神密人物。人们对他总是模模糊糊，像雾像雨又像风就是捉摸不定……</p>
 <h3 id="一、首先了解闭包是个什么玩意儿？都有哪些东西？">一、首先了解闭包是个什么玩意儿？都有哪些东西？</h3>
 <ol>
@@ -163,6 +161,7 @@ n个子函数体
 <li>执行result后，会将其插到f1的前面并与f1建立一个链路</li>
 <li>如果在result后执行的其他方法，均会按照上面的这个方式进行插入</li>
 </ol>
+<p>好吧！先写到这儿吧！如果在有其他的，在陆续补充……</p>
 
     
   </div>
@@ -170,6 +169,10 @@ n个子函数体
     
       
       
+  <div class="tags">
+    <a class="tags-link" href="/tags/js作用域/">js作用域</a>, <a class="tags-link" href="/tags/js作用域链/">js作用域链</a>, <a class="tags-link" href="/tags/js闭包/">js闭包</a>
+  </div>
+
     
     <div class="clearfix"></div>
   </footer>
@@ -178,7 +181,7 @@ n个子函数体
 
 <section id="comment">
   <h1 class="title">评论</h1>
-  <div class="ds-thread" data-title="">
+  <div class="ds-thread" data-title="JavaScript闭包.md">
   </div>
 </section>
 

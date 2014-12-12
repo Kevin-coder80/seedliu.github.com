@@ -4,7 +4,7 @@
   <subtitle><![CDATA[A Front-end Development]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2014-12-12T07:14:44.231Z</updated>
+  <updated>2014-12-12T07:18:47.404Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,14 +15,12 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[]]></title>
-    <link href="http://yoursite.com/2014/12/12/JavaScript%E9%97%AD%E5%8C%85/"/>
-    <id>http://yoursite.com/2014/12/12/JavaScript闭包/</id>
-    <published>2014-12-12T07:14:03.000Z</published>
-    <updated>2014-12-12T07:14:03.000Z</updated>
-    <content type="html"><![CDATA[<p>title: JavaScript闭包.md<br>date: 2014-12-10 22:08:44</p>
-<h2 id="tags:_[‘js闭包’,_‘js作用域’-_‘js作用域链’]">tags: [‘js闭包’, ‘js作用域’. ‘js作用域链’]</h2>
-<p>以下内容为自己记录使用，可能不算全面，请谅解！</p>
+    <title><![CDATA[JavaScript闭包.md]]></title>
+    <link href="http://yoursite.com/2014/12/10/JavaScript%E9%97%AD%E5%8C%85/"/>
+    <id>http://yoursite.com/2014/12/10/JavaScript闭包/</id>
+    <published>2014-12-10T14:08:44.000Z</published>
+    <updated>2014-12-12T07:18:24.000Z</updated>
+    <content type="html"><![CDATA[<p>以下内容为自己记录使用，可能不算全面，请谅解！</p>
 <p><strong><em>闭包</em></strong>，这个词在JS中也算是个神密人物。人们对他总是模模糊糊，像雾像雨又像风就是捉摸不定……</p>
 <h3 id="一、首先了解闭包是个什么玩意儿？都有哪些东西？">一、首先了解闭包是个什么玩意儿？都有哪些东西？</h3>
 <ol>
@@ -72,11 +70,10 @@
 <li>执行result后，会将其插到f1的前面并与f1建立一个链路</li>
 <li>如果在result后执行的其他方法，均会按照上面的这个方式进行插入</li>
 </ol>
+<p>好吧！先写到这儿吧！如果在有其他的，在陆续补充……</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>title: JavaScript闭包.md<br>date: 2014-12-10 22:08:44</p>
-<h2 id="tags:_[‘js闭包’,_‘js作用域’-_‘js作用域链’]">tags: [‘js闭包’, ‘js作用域’. ‘js作用域链’]</h2>
-<p>以下内容为自己记录使用，可能不算全面，请谅解！</p>
+    <![CDATA[<p>以下内容为自己记录使用，可能不算全面，请谅解！</p>
 <p><strong><em>闭包</em></strong>，这个词在JS中也算是个神密人物。人们对他总是模模糊糊，像雾像雨又像风就是捉摸不定……</p>
 <h3 id="一、首先了解闭包是个什么玩意儿？都有哪些东西？">一、首先了解闭包是个什么玩意儿？都有哪些东西？</h3>
 <ol>
@@ -90,6 +87,12 @@
 <p>可见一个闭包就是由一个主函数体和n个在其内容中的子函数体构成。<br>]]>
     
     </summary>
+    
+      <category term="js闭包" scheme="http://yoursite.com/tags/js%E9%97%AD%E5%8C%85/"/>
+    
+      <category term="js作用域" scheme="http://yoursite.com/tags/js%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
+    
+      <category term="js作用域链" scheme="http://yoursite.com/tags/js%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE/"/>
     
   </entry>
   

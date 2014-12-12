@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2014/12/12/JavaScript%E9%97%AD%E5%8C%85/</loc>
+    <lastmod>2014-12-12T07:14:03.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2014/12/04/jade-md/</loc>
+    <lastmod>2014-12-04T03:13:10.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2014/12/03/Safari%20Web%20Content%20Guide/</loc>
     <lastmod>2014-12-03T15:14:23.000Z</lastmod>
   </url>

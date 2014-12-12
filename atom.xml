@@ -4,7 +4,7 @@
   <subtitle><![CDATA[A Front-end Development]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2014-12-12T07:18:47.404Z</updated>
+  <updated>2014-12-12T07:20:10.507Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://yoursite.com/2014/12/10/JavaScript%E9%97%AD%E5%8C%85/"/>
     <id>http://yoursite.com/2014/12/10/JavaScript闭包/</id>
     <published>2014-12-10T14:08:44.000Z</published>
-    <updated>2014-12-12T07:18:24.000Z</updated>
+    <updated>2014-12-12T07:19:56.000Z</updated>
     <content type="html"><![CDATA[<p>以下内容为自己记录使用，可能不算全面，请谅解！</p>
 <p><strong><em>闭包</em></strong>，这个词在JS中也算是个神密人物。人们对他总是模模糊糊，像雾像雨又像风就是捉摸不定……</p>
 <h3 id="一、首先了解闭包是个什么玩意儿？都有哪些东西？">一、首先了解闭包是个什么玩意儿？都有哪些东西？</h3>
@@ -27,11 +27,13 @@
 <li>一个主函数体</li>
 <li>n个子函数体</li>
 <li>返回信息</li>
-<li><em>没有了</em></li>
+<li><em>没有了</em><a id="more"></a>
+
+</li>
 </ol>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">f1</span><span class="params">()</span></span>{</div><div class="line">  <span class="keyword">var</span> n=<span class="number">999</span>;</div><div class="line">　<span class="function"><span class="keyword">function</span> <span class="title">f2</span><span class="params">()</span></span>{</div><div class="line">　  <span class="keyword">var</span> k = <span class="number">8888</span>;</div><div class="line">　　alert(n); </div><div class="line">　  <span class="keyword">return</span> k；</div><div class="line">　}</div><div class="line">　<span class="keyword">return</span> f2;</div><div class="line">}</div></pre></td></tr></table></figure>
 
-<p>可见一个闭包就是由一个主函数体和n个在其内容中的子函数体构成。<br><a id="more"></a></p>
+<p>可见一个闭包就是由一个主函数体和n个在其内容中的子函数体构成。</p>
 <h3 id="二、使用闭包的主要目的是什么？">二、使用闭包的主要目的是什么？</h3>
 <ol>
 <li>保护局部变量不被污染（将其变相的的变为私有变量）</li>
@@ -80,11 +82,7 @@
 <li>一个主函数体</li>
 <li>n个子函数体</li>
 <li>返回信息</li>
-<li><em>没有了</em></li>
-</ol>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">f1</span><span class="params">()</span></span>{</div><div class="line">  <span class="keyword">var</span> n=<span class="number">999</span>;</div><div class="line">　<span class="function"><span class="keyword">function</span> <span class="title">f2</span><span class="params">()</span></span>{</div><div class="line">　  <span class="keyword">var</span> k = <span class="number">8888</span>;</div><div class="line">　　alert(n); </div><div class="line">　  <span class="keyword">return</span> k；</div><div class="line">　}</div><div class="line">　<span class="keyword">return</span> f2;</div><div class="line">}</div></pre></td></tr></table></figure>
-
-<p>可见一个闭包就是由一个主函数体和n个在其内容中的子函数体构成。<br>]]>
+<li><em>没有了</em>]]>
     
     </summary>
     

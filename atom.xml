@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[瓜籽吐嘈]]></title>
+  <title><![CDATA[瓜籽.前端]]></title>
   <subtitle><![CDATA[A Front-end Development]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2014-12-12T07:20:10.507Z</updated>
+  <updated>2015-02-11T08:28:19.699Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -99,10 +99,26 @@
     <link href="http://yoursite.com/2014/12/04/jade-md/"/>
     <id>http://yoursite.com/2014/12/04/jade-md/</id>
     <published>2014-12-04T02:53:11.000Z</published>
-    <updated>2014-12-04T03:13:10.000Z</updated>
+    <updated>2014-12-12T07:28:43.000Z</updated>
     <content type="html"><![CDATA[<p>可能现在大家还是在写HTML语言，当然这个也没有错。但要处理HTML模块复用时就会有些困难了……</p>
 <p>目前用来处理HTML分模块加载的东西有很多，如：<strong> smarty, </strong></p>
 <h3 id="一、Jade是什么玩意儿">一、Jade是什么玩意儿</h3>
+<p>Jade就是一个厨师！他把不同的原材料经过加工，修饰后再次的组合起来。不同原料的组合结果都不一样，口味都不相同……</p>
+<h3 id="二、传统方法与Jade的共同之处是什么">二、传统方法与Jade的共同之处是什么</h3>
+<ol>
+<li>UI提供设计图</li>
+<li>FE切图</li>
+<li><strong><em>没了</em></strong></li>
+</ol>
+<h3 id="三、不同之处又有哪些？">三、不同之处又有哪些？</h3>
+<ol>
+<li>传统方式<ul>
+<li>按照设计图将HTML码在页面中……</li>
+<li>如果其他页面中有相同的部分，那就从已有的页面中找出来拷贝过去（我操！又窜行儿了！）</li>
+<li></li>
+</ul>
+</li>
+</ol>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>可能现在大家还是在写HTML语言，当然这个也没有错。但要处理HTML模块复用时就会有些困难了……</p>
